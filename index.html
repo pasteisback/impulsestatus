@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Status Page</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="status.js"></script>
+</head>
+<body>
+  <div class="bg-animation"></div>
+  <header>
+    <nav class="container">
+      <div class="logo">Impulse Status</div>
+    </nav>
+  </header>
+  <main class="container hero">
+    <div class="hero-content">
+      <div id="status-banner" class="hero-badge">Loading status...</div>
+      <h1>All Systems</h1>
+      <p>Live status for User & Backend components</p>
+    </div>
+  </main>
+
+  <section class="features container">
+    <div class="section-header">
+      <span class="section-badge">Status</span>
+      <h2 class="section-title">System Overview</h2>
+    </div>
+    <div class="features-grid" id="status-sections"></div>
+  </section>
+
+  <section class="features container">
+    <div class="section-header">
+      <span class="section-badge">History</span>
+      <h2 class="section-title">Incident Log</h2>
+    </div>
+    <div class="features-grid" id="history-section"></div>
+  </section>
+
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-section">
+        <h4>Impulse Status</h4>
+        <p>Live system health updates.</p>
+      </div>
+      <a href="https://discord.gg" target="_blank" class="discord-btn">
+        <svg viewBox="0 0 24 24"><path d="M...Z" /></svg>
+        Join Discord
+      </a>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2025 Impulse. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html>
