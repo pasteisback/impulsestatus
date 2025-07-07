@@ -1,25 +1,28 @@
 {
-  "banner": "green",  // "yellow", "red"
-  "services": {
-    "User": {
-      "Impulse": "Operational",
-      "Discord": "Degraded",
-      "Website": "Down"
+    "banner": "green",
+    "services": {
+        "User": {
+            "Impulse": "Operational",
+            "Discord": "Operational",
+            "Website": "Operational"
+        },
+        "Backend": {
+            "API": "Operational",
+            "Injector": "Operational",
+            "Module": "Operational",
+            "Servers": "Operational"
+        }
     },
-    "Backend": {
-      "API": "Operational",
-      "Injector": "Operational",
-      "Module": "Operational",
-      "Servers": "Degraded"
-    }
-  },
-  "history": [
-    {
-      "status": "Degraded",
-      "components": ["Discord", "Servers"],
-      "time": "2025-07-07T20:51:00Z",
-      "resolved": false,
-      "message": "We're investigating performance issues."
-    }
-  ]
+    "history": [
+        {
+            "status": "Degraded",
+            "components": [
+                "Discord",
+                "Servers"
+            ],
+            "time": "2025-07-07T02:24:08.825570Z",
+            "resolved": false,
+            "message": "We're investigating performance issues."
+        }
+    ]
 }
